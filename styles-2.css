@@ -1,3 +1,30 @@
+/* Color palette */
+:root {
+    --color-1: #ff7142;
+    --color-2: #ffd24d;
+    --color-3: #a1d76a;
+    --color-3-1: #a1d76a80;
+    --color-4: #4aa1f2;
+    --color-5: #b177ca;
+    --color-5-1: #b177ca80;
+    --color-6: #1764ac;
+
+    --color-12: #da4141;
+
+    --color-7: #3a8d3b;
+    --color-8: #4fbf4f;
+    --color-9: #a4d76a;
+    --color-10: #d6c66b;
+    --color-11: #d59b48;
+
+    --color-a: #fff;
+    --color-b: #000;
+    --color-c: #555;
+    --color-d: #efefef;
+    --color-e: #cacaca;
+}
+
+/* Base styles */
 body {
     font-family: 'times', sans-serif;
     margin-left: 170px;
@@ -278,7 +305,7 @@ details[open] summary {
     box-sizing: border-box;
 }
 
-/* CSS Variables */
+/* Navigation */
 
 nav {
     position: fixed;
@@ -371,32 +398,6 @@ nav a:hover {
     display: block;
 }
 
-/* CSS */
-:root {
-
-    --color-1: #ff7142;
-    --color-2: #ffd24d;
-    --color-3: #a1d76a;
-    --color-3-1: #a1d76a80;
-    --color-4: #4aa1f2;
-    --color-5: #b177ca;
-    --color-5-1: #b177ca80;
-    --color-6: #1764ac;
-
-    --color-12: #da4141;
-
-    --color-7: #3a8d3b;
-    --color-8: #4fbf4f;
-    --color-9: #a4d76a;
-    --color-10: #d6c66b;
-    --color-11: #d59b48;
-
-    --color-a: #fff;
-    --color-b: #000;
-    --color-c: #555;
-    --color-d: #efefef;
-    --color-e: #cacaca;
-}
 
 /* Responsive Design for Mobile Devices */
 @media (max-width: 800px) {
