@@ -22,11 +22,12 @@
     --color-c: #555;
     --color-d: #efefef;
     --color-e: #cacaca;
+    --font-base: 'Helvetica', Arial, sans-serif;
 }
 
 /* Base styles */
 body {
-    font-family: 'times', sans-serif;
+    font-family: var(--font-base);
     margin-left: 170px;
     padding: 0;
     background-color: var(--color-a);
@@ -78,7 +79,7 @@ section {
 }
 
 h1 {
-    font-family: 'helvetica', sans-serif;
+    font-family: var(--font-base);
     font-weight: 800;
     font-size: 3em;
     color: var(--color-b);
@@ -95,7 +96,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'helvetica', sans-serif;
+    font-family: var(--font-base);
     font-weight: 800;
     font-size: 2em;
     color: var(--color-b);
@@ -103,7 +104,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'helvetica', sans-serif;
+    font-family: var(--font-base);
     font-weight: 800;
     font-size: 1.5em;
     color: var(--color-b);
@@ -115,7 +116,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'helvetica', sans-serif;
+    font-family: var(--font-base);
     font-weight: 800;
     font-size: 1.375em;
     color: var(--color-b);
@@ -208,7 +209,7 @@ details {
 }
 
 summary {
-    font-family: 'helvetica', sans-serif;
+    font-family: var(--font-base);
     background-color: var(--color-b);
     color: var(--color-a);
     padding: 10px 10px;
@@ -320,7 +321,7 @@ nav {
 }
 
 nav a {
-    font-family: 'helvetica', sans-serif;
+    font-family: var(--font-base);
     font-weight: medium;
     display: flex;
     align-items: center;
