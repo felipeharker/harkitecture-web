@@ -1,33 +1,5 @@
-/* Color palette */
-:root {
-    --color-1: #ff7142;
-    --color-2: #ffd24d;
-    --color-3: #a1d76a;
-    --color-3-1: #a1d76a80;
-    --color-4: #4aa1f2;
-    --color-5: #b177ca;
-    --color-5-1: #b177ca80;
-    --color-6: #1764ac;
-
-    --color-12: #da4141;
-
-    --color-7: #3a8d3b;
-    --color-8: #4fbf4f;
-    --color-9: #a4d76a;
-    --color-10: #d6c66b;
-    --color-11: #d59b48;
-
-    --color-a: #fff;
-    --color-b: #000;
-    --color-c: #555;
-    --color-d: #efefef;
-    --color-e: #cacaca;
-    --font-base: 'Helvetica', Arial, sans-serif;
-}
-
-/* Base styles */
 body {
-    font-family: var(--font-base);
+    font-family: 'times', sans-serif;
     margin-left: 170px;
     padding: 0;
     background-color: var(--color-a);
@@ -79,7 +51,7 @@ section {
 }
 
 h1 {
-    font-family: var(--font-base);
+    font-family: 'helvetica', sans-serif;
     font-weight: 800;
     font-size: 3em;
     color: var(--color-b);
@@ -96,7 +68,7 @@ h1 {
 }
 
 h2 {
-    font-family: var(--font-base);
+    font-family: 'helvetica', sans-serif;
     font-weight: 800;
     font-size: 2em;
     color: var(--color-b);
@@ -104,7 +76,7 @@ h2 {
 }
 
 h3 {
-    font-family: var(--font-base);
+    font-family: 'helvetica', sans-serif;
     font-weight: 800;
     font-size: 1.5em;
     color: var(--color-b);
@@ -116,7 +88,7 @@ h3 {
 }
 
 h4 {
-    font-family: var(--font-base);
+    font-family: 'helvetica', sans-serif;
     font-weight: 800;
     font-size: 1.375em;
     color: var(--color-b);
@@ -209,7 +181,7 @@ details {
 }
 
 summary {
-    font-family: var(--font-base);
+    font-family: 'helvetica', sans-serif;
     background-color: var(--color-b);
     color: var(--color-a);
     padding: 10px 10px;
@@ -306,7 +278,7 @@ details[open] summary {
     box-sizing: border-box;
 }
 
-/* Navigation */
+/* CSS Variables */
 
 nav {
     position: fixed;
@@ -321,7 +293,7 @@ nav {
 }
 
 nav a {
-    font-family: var(--font-base);
+    font-family: 'helvetica', sans-serif;
     font-weight: medium;
     display: flex;
     align-items: center;
@@ -399,6 +371,32 @@ nav a:hover {
     display: block;
 }
 
+/* CSS */
+:root {
+
+    --color-1: #ff7142;
+    --color-2: #ffd24d;
+    --color-3: #a1d76a;
+    --color-3-1: #a1d76a80;
+    --color-4: #4aa1f2;
+    --color-5: #b177ca;
+    --color-5-1: #b177ca80;
+    --color-6: #1764ac;
+
+    --color-12: #da4141;
+
+    --color-7: #3a8d3b;
+    --color-8: #4fbf4f;
+    --color-9: #a4d76a;
+    --color-10: #d6c66b;
+    --color-11: #d59b48;
+
+    --color-a: #fff;
+    --color-b: #000;
+    --color-c: #555;
+    --color-d: #efefef;
+    --color-e: #cacaca;
+}
 
 /* Responsive Design for Mobile Devices */
 @media (max-width: 800px) {
